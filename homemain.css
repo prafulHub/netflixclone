@@ -1,0 +1,686 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ..............-----------------------------------Navbar section End----------------------------------------------............. */
+
+.header-image {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.151);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/new\ bg\ netfilx.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.netflix-logo {
+    margin-left: 50px;
+    height: 95px;
+}
+
+header a.button {
+    display: inline-block;
+    background-color: red;
+    margin-right: 60px;
+    color: white;
+    text-decoration: none;
+    padding: 7px 17px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+header select {
+    background: transparent;
+    color: white;
+    padding: 3px 0 6px 21px;
+    border-radius: 3px;
+    margin-right: 25px;
+}
+
+header select option {
+    background: gray;
+    font-size: 15px;
+
+}
+
+header .globe-icon img {
+    height: 15px;
+    color: white;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 6px;
+    background: white;
+    border-radius: 50%;
+}
+
+/* ..............---------------------------------------Navbar section End-.-----------------------------------------------............ */
+
+/* ---------------------------------------------------body section start ------------------------------------------------------------*/
+
+
+/* ---------------------------------------------------header text section start -----------------------------------------------------*/
+
+.home-page h1 {
+    margin-top: 70px;
+    font-size: calc(25px + (45 -15) * (100vw - 300px) / (1920 - 300));
+    font-weight: 500;
+
+
+}
+
+.home-page h3 {
+    margin-top: 13px;
+    font-size: calc(18px + (15 -10) * (100vw - 300px) / (1920 - 300));
+    font-weight: 600;
+}
+
+.home-page p {
+    margin-top: 20px;
+    font-size: calc(18px + (2 -3) * (100vw - 300px) / (1920 - 300));
+    font-weight: 400;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+.search-box input {
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    padding: 5px 5px 4px 10px;
+    min-width: 450px;
+    height: 50px;
+    align-items: center;
+
+}
+
+.search-box a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: red;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    text-align: center;
+    font-size: calc(14px + (6 -6) * (100vw - 300px) / (1920 - 300));
+    line-height: 50px;
+    min-width: 140px;
+    padding: 0 30px;
+}
+
+/*-------------------------------------------------- Header section end here---------------------------------------------------*/
+
+/* ------------------------------------------2nd middle section start ------------------------------------------------------ */
+.box {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-style {
+    border-top: 8px solid gray;
+}
+
+.card-text h1 {
+    font-weight: 500;
+    font-size: calc(28px + (28 -15) * (100vw - 300px) / (1920 - 300));
+}
+
+.card-text h6 {
+
+    line-height: 5px;
+    padding-top: 25px;
+
+
+    font-weight: 400;
+    font-size: calc(95% + (6 -5) * (100vw - 300px) / (1920 - 300));
+}
+
+.card-text h5 {
+
+    font-weight: 400;
+    font-size: calc(17px + (2 -3) * (100vw - 300px) / (1920 - 300));
+}
+
+.card-text p {
+    font-size: calc(17px + (9 -10) * (100vw - 300px) / (1920 - 300));
+    font-weight: 400;
+}
+
+
+
+/* ------------------------------------------------card-1 section start---------------------------------------------------- */
+.tv-frame-card-1 {
+    display: inline-grid;
+
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+    padding: 20px 0px 65px;
+}
+
+
+section video {
+    display: inline-block;
+    vertical-align: baseline;
+    position: relative;
+    height: 100%;
+    width: 74%;
+    top: -5px;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+
+}
+
+section img.card-img {
+    height: auto;
+    max-width: 100%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+
+
+}
+
+/* -------------------------------------------------card-1 section esnd----------------------------------------------------------- */
+
+
+/*------------------------------------------------- card-2 section start ----------------------------------------------------------*/
+.box-2 {
+    position: relative;
+}
+
+.card-text .mobile-img {
+    height: 26rem;
+    width: auto;
+    padding-bottom: 3rem;
+
+
+
+}
+
+.download {
+    position: absolute;
+    align-items: center;
+    background: #000;
+    border: 2px solid hsla(0, 0%, 100%, .25);
+    border-radius: 0.75em;
+    bottom: 20%;
+    box-shadow: 0 0 2em 0 #000;
+    display: flex;
+    height: 75px;
+    left: 50%;
+    margin: 0 auto;
+    min-width: 20em;
+    padding: 0.25em 0.65em;
+    position: absolute;
+    transform: translateX(-50%);
+
+}
+
+
+.text-png {
+    display: flex;
+    flex-direction: column;
+    padding-right: 19%;
+    text-align: left;
+}
+
+.text-png strong {
+    font-weight: 400;
+    font-size: calc(13px + (2 -3) * (100vw - 300px) / (1920 - 300));
+}
+
+.text-png span {
+
+    color: blue;
+    font-size: calc(15px + (1 -1) * (100vw - 300px) / (1920 - 300));
+
+}
+
+.download img {
+
+    height: 65px;
+    width: auto;
+    align-items: flex-end;
+    padding: 0px 12px 0px 0px;
+
+
+}
+
+/*------------------------------------------- card-2 section end here ------------------------------------------------------*/
+
+/*------------------------------------------ card-3 section start here ----------------------------------------------------*/
+.card-3 {
+    position: relative;
+    display: inline-grid;
+    align-items: center;
+    justify-items: center;
+    padding: 25px 0px 60px;
+
+
+}
+
+.card-3 video {
+    display: inline-block;
+    vertical-align: baseline;
+    position: relative;
+    top: -3rem;
+    height: auto;
+    width: 64%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+
+}
+
+.card-3 img {
+    height: auto;
+    max-width: 100%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+
+}
+
+/*------------------------------------------------------------- caed-3 section end -----------------------------------------------------*/
+
+
+
+/*---------------------------------------------------- Questions section start ------------------------------------------------------------------*/
+.list {
+    border-top: 8px solid gray;
+}
+
+.feq h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+.questions {
+    margin: 0 auto;
+
+}
+
+.question {
+    position: relative;
+    background-color: #303030;
+    margin-bottom: 5px;
+}
+
+.question svg {
+    color: white;
+    width: 30px;
+    height: 26px;
+    right: 8px;
+    top: 24px;
+    position: absolute;
+    transform: rotate(45deg);
+    transition: all 0.1s ease;
+
+}
+
+.question .header {
+    display: block;
+    padding: 5px 15px 30px;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+
+}
+
+.question .answer {
+    padding: 0 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.question input[type="checkbox"] {
+    display: none;
+
+}
+
+.question input[type="checkbox"]:checked~div.answer {
+    padding: 9px 15px 30px;
+    max-height: 600px;
+
+}
+
+.question input[type="checkbox"]:checked~.header svg {
+    transform: rotate(180deg);
+
+}
+
+
+
+/* input section start */
+
+
+
+/* input section end */
+
+/*--------------------------------------------- Questions section End----------------------------------------------------------- */
+
+
+
+
+/*------------------------------------------------- footer section  start from here---------------------------------------------------- */
+.footer-text {
+    border-top: 8px solid gray;
+}
+
+.footer p {
+    color: gray;
+    font-size: 18px;
+    padding: 0 4px;
+
+}
+
+.footer span {
+    color: gray;
+    font-size: 14px;
+
+    padding: 0;
+    cursor: pointer;
+}
+
+.footer-list ul {
+    list-style: none;
+}
+
+.footer-list li a {
+
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+
+.footer-list a:hover {
+    border-bottom: 1px solid #303030;
+
+}
+
+.footer-list li a:hover {
+    border-bottom: 1px solid #303030;
+}
+
+.footer-list li {
+    padding-bottom: 6px;
+
+}
+
+/* language selector section start */
+
+.col-4 select {
+    border-color: gray;
+    background: transparent;
+    color: gray;
+    padding: 8px 0 12px 28px;
+    border-radius: 3px;
+    margin-right: 25px;
+
+
+}
+
+.col-4 select option {
+    background: black;
+    font-size: 15px;
+
+
+}
+
+.col-4 .globe-icon img {
+    height: 17px;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 10px;
+    background: gray;
+    border-radius: 50%;
+}
+
+.net-lable p {
+    margin-top: 15px;
+    color: gray;
+    font-size: 13px;
+
+}
+
+/* language selector section end */
+
+
+/*------------------------------------------------------- footer section end here ----------------------------------------------------*/
+
+
+/* ------------------------------------------------------media qurrey start from here -------------------------------------------------*/
+
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 768px) {
+    .netflix-logo {
+        margin-left: 50px;
+        height: 65px;
+    }
+
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-box input {
+        min-width: 400px;
+
+        margin-bottom: 15px;
+    }
+
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 576px) {
+    .netflix-logo {
+
+        height: 65px;
+    }
+
+    header a.button {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    header select {
+        margin-right: 10px;
+    }
+
+    header select option {
+        font-size: 14px;
+
+    }
+
+    header .globe-icon img {
+        height: 15px;
+        margin-top: 12px;
+
+    }
+
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-box input {
+        min-width: 350px;
+        margin-bottom: 15px;
+    }
+
+    section video {
+        width: 74%;
+        top: -3%;
+
+    }
+
+
+    .card-3 video {
+        top: -15%;
+
+
+    }
+
+    .download {
+        min-width: 20em;
+
+    }
+
+    .text-png {
+
+        padding-right: 18%;
+
+    }
+}
+
+@media screen and (max-width: 492px) {
+    .netflix-logo {
+        margin-left: 0px;
+        height: 60px;
+    }
+
+    header a.button {
+        display: inline-block;
+        margin-right: 0px;
+        padding: 2px 8px;
+    }
+
+    header select {
+        margin-right: 3px;
+
+        padding: 0px 0 2px 15px;
+    }
+
+    header .globe-icon img {
+        height: 14px;
+
+    }
+
+    header .globe-icon img {
+
+        margin-top: 8px;
+
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-box input {
+        min-width: 270px;
+
+        margin-bottom: 15px;
+    }
+
+    .search-box a {
+        padding: 0 15px;
+    }
+
+    section video {
+        width: 74%;
+        top: -2%;
+    }
+
+    .download {
+        left: 50%;
+
+        min-width: 19em;
+
+    }
+
+
+}
+
+@media screen and (max-width: 292px) {
+    .netflix-logo {
+        margin-left: 0px;
+        height: 60px;
+    }
+
+    header a.button {
+        display: inline-block;
+        margin-right: 0px;
+        padding: 2px 8px;
+    }
+
+    header select {
+        margin-right: 3px;
+
+        padding: 0px 0 2px 15px;
+    }
+
+    header .globe-icon img {
+        height: 14px;
+
+    }
+
+    header .globe-icon img {
+
+        margin-top: 8px;
+
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-box input {
+        min-width: 270px;
+
+        margin-bottom: 15px;
+    }
+
+    .search-box a {
+        padding: 0 15px;
+    }
+
+    section video {
+        width: 74%;
+        top: -2%;
+    }
+
+    .download {
+
+        min-width: 17em;
+
+    }
+
+    .text-png {
+
+        padding-right: 9%;
+
+    }
+
+
+}
+
+/* -------------------------------------------css code end hare ---------------------------------------------------------------*/
